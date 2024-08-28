@@ -218,13 +218,10 @@ section h2 {
     background-color: #283694;
     color: #fff;
 }
-.card-text{
+.hove{
     color: #fff;
 }
-.card-text:hover{
-    color: #283694;
-}
-.reviews:hover{
+.reviews,.hove:hover{
     background-color: #fff;
     color: #283694;
 }
