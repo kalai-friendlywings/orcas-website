@@ -218,10 +218,8 @@ section h2 {
     background-color: #283694;
     color: #fff;
 }
-.hove{
-    color: #fff;
-}
-.reviews,.hove:hover{
+
+.reviews:hover{
     background-color: #fff;
     color: #283694;
 }
