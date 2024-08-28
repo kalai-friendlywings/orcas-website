@@ -221,6 +221,9 @@ section h2 {
 .card-text{
     color: #fff;
 }
+.card-text:hover{
+    color: #283694;
+}
 .reviews:hover{
     background-color: #fff;
     color: #283694;
