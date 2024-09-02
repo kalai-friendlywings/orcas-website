@@ -372,6 +372,45 @@ footer {
     transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
+/*beta board */
+/* Beta Notice Banner */
+.beta-notice {
+    background-color: #ffc107;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.beta-notice p {
+    margin: 0;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.beta-notice .close-notice {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* Add space below the notice to prevent overlap with content */
+body {
+    padding-top: 50px; /* Adjust based on the height of the beta-notice */
+}
 
    
    
