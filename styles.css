@@ -391,13 +391,13 @@ footer {
 .beta-notice p {
     margin: 0;
     display: inline-block;
-    font-size: 1rem;
+    font-size: 0.5rem;
 }
 
 .beta-notice .close-notice {
     background: none;
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #333;
     position: absolute;
