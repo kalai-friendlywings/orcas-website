@@ -289,6 +289,15 @@ footer {
     .card-img-top {
         height: 150px; /* Adjust height for small screens */
     }
+    #hero h2 {
+        font-size: 2em; /* Make headings smaller */
+    }
+    #hero p {
+        font-size: 1em; /* Adjust paragraph size */
+    }
+    .card {
+        margin-bottom: 15px;
+    }
 }
 /*nav bar*/
 .navbar-brand{
@@ -340,7 +349,8 @@ footer {
 
 .card:hover {
        
-        box-shadow: 5px 5px 10px #7f7e7e4d, -0px -5px 10px #7f7e7e4d;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
       }
       
 .card{
@@ -354,7 +364,7 @@ footer {
     -ms-backdrop-filter: blur(10px); /* Internet Explorer 10+ support */
     overflow: hidden;
    
-    
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
+
+   
