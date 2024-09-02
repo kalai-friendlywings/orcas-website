@@ -5,6 +5,9 @@ body, h1, h2, h3, p, ul, li, form, input, textarea {
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 /* Basic styling */
 body {
     
@@ -357,14 +360,18 @@ footer {
     background-color: rgba(255, 255, 255, 0.089); /* Transparent white */
     border: 1px solid rgba(255, 255, 255, 0.164);
     border-radius: 8px;
-    backdrop-filter: blur(10px); /* Apply blur effect */
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
-    -moz-backdrop-filter: blur(10px); /* Firefox support */
-    -o-backdrop-filter: blur(10px); /* Opera support */
-    -ms-backdrop-filter: blur(10px); /* Internet Explorer 10+ support */
+    backdrop-filter: blur(5px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(5px); /* Safari support */
+    -moz-backdrop-filter: blur(5px); /* Firefox support */
+    -o-backdrop-filter: blur(5px); /* Opera support */
+    -ms-backdrop-filter: blur(5px); /* Internet Explorer 10+ support */
     overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
    
     transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
+
+   
    
